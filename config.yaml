@@ -24,8 +24,27 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: 1337X
-    name: www.1377x.to
+ 
+   - id: Reddit
+    name: reddit.com
+    description: 'Reddit is a network of communities where people can dive into their interests, hobbies and passions'
+    url: 'https://www.reddit.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+    
+    
+   - id: Youtube
+    name: youtube.com
+    description: 'YouTube is an online video sharing and social media platform headquartered in San Bruno, California'
+    url: 'https://www.youtube.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+   
+   
+   - id: 1337X
+    name: 1377x.to
     description: '1337x is a website that provides a directory of torrent files and magnet links used for peer-to-peer file sharing through the BitTorrent protocol'
     url: 'https://www.1377x.to/'
     method: GET
