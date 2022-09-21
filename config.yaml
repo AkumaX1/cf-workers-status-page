@@ -23,9 +23,8 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
-
- 
-   - id: Reddit
+    
+    - id: Reddit
     name: reddit.com
     description: 'Reddit is a network of communities where people can dive into their interests, hobbies and passions'
     url: 'https://www.reddit.com/'
@@ -33,8 +32,7 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
     
-    
-   - id: Youtube
+    - id: Youtube
     name: youtube.com
     description: 'YouTube is an online video sharing and social media platform headquartered in San Bruno, California'
     url: 'https://www.youtube.com/'
@@ -42,15 +40,13 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
     
-    
-   - id: Twitter
+    - id: Twitter
     name: twitter.com
     description: 'Twitter is a microblogging and social networking service owned by American company Twitter, Inc'
     url: 'https://twitter.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
-   
    
    - id: 1337X
     name: 1377x.to
@@ -60,8 +56,7 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
     
-    
-  - id: Piratebay
+    - id: Piratebay
     name: thepiratebay.org
     description: 'The Pirate Bay (sometimes abbreviated as TPB) is an online index of digital content of entertainment media and software'
     url: 'https://thepiratebay.org/'
